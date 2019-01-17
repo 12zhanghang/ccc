@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-
+#include<math.h>
 struct point
 
 {
@@ -63,7 +62,7 @@ int main(){
             {
                 printf("di %dge cheliang de weiziw\n",i + 1, arr[i].x, arr[i].y);
             }
-            printf("\n dianjihuiche jixu\n");
+            
             char xx;
             scanf("%c",&xx);
             scanf("%c",&xx);
@@ -71,6 +70,26 @@ int main(){
 
         if(code==4)
         {
+            printf("qing shu ru dongqing weizi\n");
+            int x;
+            int y;
+            scanf("%d",&x);
+            scanf("%d",&y);
+            double min =10000;
+            int carid=0;
+            
+            for(int i = 0; i <index; i++)
+
+            {
+                int dx =x-arr[i].x;
+                int dy = y-arr[i].y;
+                double l=sqrt (dx*dx+dy*dy);
+                if(min>l)
+                {
+                    min=l;
+                    carid=i;
+                }
+            }
             
         }
         if(code==5)
