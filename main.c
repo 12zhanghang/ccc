@@ -58,8 +58,17 @@ int main(){
         }
         if(code==3)
         {
-            
+            printf("sycheliangruxia\n");
+            for(int i=0;i<index;i++)
+            {
+                printf("di %dge cheliang de weiziw\n",i + 1, arr[i].x, arr[i].y);
+            }
+            printf("\n dianjihuiche jixu\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
         }
+
         if(code==4)
         {
             
