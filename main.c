@@ -21,10 +21,22 @@ int main(){
         printf("5---tui chu\n");
         printf("qinshuruxiangyinggongneng\n");
         int code;
-        scanf("%d",&code); 
+        scanf("%d",&code);
         if(code==1)
         {
-        
+        printf("qing shuru che liangde x , y zuo biao\n");
+        int x;
+        int y;
+        scanf("%d",&x);
+        scanf("%d",&y);
+        arr[index].x=y;
+        arr[index].y=y;
+        index++;
+        printf("tianjia cheggong\n");
+        char xx;
+        scanf("%c",&xx);
+        scanf("%c",&xx);
+
         }
         if(code==2)
         {
